@@ -36,25 +36,25 @@ To get Tourio up and running on your local machine, follow these steps:
 - Stripe account
 
 
-**Clone the repository:**
+### Frontend Setup
+
+1. **Clone the repository:**
     ```sh
     git clone https://github.com/mh-monzil/scholarVista.git
     cd scholarVista
     ```
 
-### Frontend Setup
-
-1. **Navigate to the frontend directory:**
+2. **Navigate to the frontend directory:**
     ```sh
     cd client
     ```
 
-2. **Install frontend dependencies:**
+3. **Install frontend dependencies:**
     ```sh
     npm install
     ```
 
-3. **Set up environment variables:**
+4. **Set up environment variables:**
     Create a `.env` file in the `frontend` directory and add your environment variables:
     ```env
     REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
@@ -66,7 +66,7 @@ To get Tourio up and running on your local machine, follow these steps:
     REACT_APP_STRIPE_PUBLIC_KEY=your_stripe_public_key
     ```
 
-4. **Run the frontend development server:**
+5. **Run the frontend development server:**
     ```sh
     npm start
     ```

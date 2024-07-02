@@ -38,7 +38,7 @@ To get Tourio up and running on your local machine, follow these steps:
 
 **Clone the repository:**
     ```sh
-    git clone https://github.com/anasahammad/scholarVista.git
+    git clone https://github.com/mh-monzil/scholarVista.git
     cd scholarVista
     ```
 
